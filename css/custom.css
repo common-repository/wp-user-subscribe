@@ -1,0 +1,63 @@
+#main-area {
+	background: #a29bfe;
+	padding: 7px 7px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 9999;
+	border-radius: 4px;
+}
+#main-area .title {
+	margin: 7px 0px;
+	font-size:;
+}
+#main-area .title span {
+	color: #FFF;
+	font-size: 16px;
+	font-family: tahoma;
+}
+#main-area form {
+	margin-bottom: 0;
+}
+#main-area input[type="email"] {
+	padding: 3px 2px;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-family: tahoma;
+}
+#main-area input[type="email"]:focus {
+	border: 1px solid green;
+	box-sizing: border-box;
+}
+#main-area input[type="submit"] {
+	background: #2ecc71;
+	border: 1px solid #2ecc71;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: bold;
+	font-family: tahoma;
+	font-size: 16px;
+	padding: 10px 5px;
+	margin-top: 15px;
+	text-transform: capitalize;
+	transition: .4s;
+}
+#main-area input[type="submit"]:hover {
+	border: 1px solid #fff;
+	color: #fff;
+	background: transparent;
+	
+}
+#main-area .cross {
+	float: right;
+}
+#main-area .cross:hover {
+	color: red;
+}
+#main-area .heading {
+	font-size: 15px;
+}
+#main-area i {
+	font-size: 20px;
+}
